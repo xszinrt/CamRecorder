@@ -31,7 +31,7 @@ class VideoListActivity : AppCompatActivity() {
     }
     
     private fun setupRecyclerView() {
-        adapter = VideoAdapter { videoUri ->
+        adapter = VideoAdapter { videoUri: Uri ->  // ✅ تحديد النوع صراحة
             playVideo(videoUri)
         }
         binding.recyclerView.layoutManager = LinearLayoutManager(this)

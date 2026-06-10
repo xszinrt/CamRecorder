@@ -1,5 +1,6 @@
 package com.example.camrecorder
 
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
